@@ -58,4 +58,4 @@ Every state and city in India has it's own speciality. This section shows the Gr
 
 The footer of the website gives different links where the user can read about India's heritage and culture and the contact links of the creator of the website. 
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/72097687/174476179-e9f8ebd3-a925-4e55-bd99-06351328581e.png">
+![image](https://github.com/thexsharma30/Unfold_INDIA/assets/141563537/fd4e2c34-58a3-48eb-8d6f-619ae02e5d6e)
