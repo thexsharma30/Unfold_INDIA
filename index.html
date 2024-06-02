@@ -15,6 +15,7 @@
     <link type="image" rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/800px-Flag_of_India.svg.png?20111003033457" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,600i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -28,7 +29,11 @@
             <div class="menu-par">
                 <div class="logo-par">
                     <a href="index.html">
-                        <h2> UNFOLD !NDIA </h2>
+                        <img src="images/Logo.png" alt="Logo" class="logo-image">
+                        <div class="logo-text">
+                            <h2>UNFOLD !NDIA</h2>
+                            <h3>India's Wonders, One Click Away</h3>
+                        </div>
                     </a>
                 </div>
                 <div class="nav">
@@ -114,22 +119,7 @@
         </div>
     </Section>
 
-    <div class="content-section">
-        <div style="position: relative; width: 100%; height: 500px; overflow: hidden;">
-            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;">
-                <video id="video" autoplay loop muted style="min-width: 100%; min-height: 100%; width: auto; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                    <source type="video/mp4" src="images/travel-video.mp4" />
-                </video>
-            </div>
-    
-            <section id="explore-fiji" style="position: relative; z-index: 1; color: white; text-align: center; padding: 20px; background: rgba(0, 0, 0, 0.5); width: 100%; height: 100%;">
-                <h1 style="margin-top: 0;">Locate top heritage sites in India!</h1>
-                <h4>This map depicts the top historical sites in India in terms of their geographical location.<br>Click on any pointer to learn more about the place and to appreciate the diversity!</h4>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1qhTy_ww6dHHCLpq66FPa2ZwgJs-HWg4&ehbc=2E312F" width="550" height="380"></iframe>
-            </section>
-        </div>
-    </div>    
-    
+
 
     <section id="gallery">
         <div class="container">
@@ -202,22 +192,7 @@
         <div class="container" style="position: relative; z-index: 1;">
             <h3 style="color: #fff; font-size: 42px; font-weight: 600; padding-bottom: 12px; text-align: center; text-transform: capitalize;">The Great Indian Cities</h3>
             <ul class="card-wrapper">
-                <li class="card">
-                    <img src='images/slider/delhi.jpg' alt=''>
-                    <h3><a href="https://en.wikipedia.org/wiki/Delhi">Delhi</a></h3>
-                    <p><a href="https://www.bing.com/maps?q=delhi&FORM=HDRSC6&cp=28.645161%7E77.076958&lvl=10.6">Capital of India</a></p>
-                </li>
-                <li class="card">
-                    <img src='images/slider/mumbai.jpg' alt=''>
-                    <h3><a href="https://en.wikipedia.org/wiki/Mumbai">Mumbai</a></h3>
-                    <p><a href="https://www.bing.com/search?q=mumbai+map&filters=dtbk:%22MCFvdmVydmlldyFjZGV4X3YyLjFfbWFwIWZiYmM4ZDY5LTY2N2EtZTFmZi0zNGJmLWU1MjRiZTAxMDI1ZA%3d%3d%22+sid:%22fbbc8d69-667a-e1ff-34bf-e524be01025d%22&FORM=DEPNAV" >financial Capital Of India</a></p>
-                </li>
-                <li class="card">
-                    <img src='images/slider/banglore.jpg' alt=''>
-                    <h3><a href="https://en.wikipedia.org/wiki/Bangalore">Banglore</a></h3>
-                    <p><a href="https://www.bing.com/maps?q=bangalore&FORM=HDRSC6&cp=12.947487%7E77.579506&lvl=10.5">Valley Of India</a></p>
-                </li>
-            </ul>
+
         </div>
     </section>
     
@@ -247,8 +222,7 @@
                     </div>
                     <div class="blog-info">
                         <ul>
-                            <li>Soumik's Blog</li>
-                           
+                            <li>Soumik's Blog</li>            
                         </ul>
                         <h4><a href="http://soumikbhattacharya.blogspot.com/2006/06/unity-of-india-in-diversity.html">The Unity of India in Diversity : Religions</a></h4>
                         <p>Diversity characterizes India. The diverse characters of India are strongly unified and perfectly assimilated to emerge as a one single nation.</p>
@@ -263,7 +237,6 @@
                     <div class="blog-info">
                         <ul>
                             <li>translatemedia</li>
-                            <li>31.05.2016</li>
                         </ul>
                         <h4><a href="https://www.translatemedia.com/translation-blog/look-indias-amazing-linguistic-diversity/" target="_blank">A Look at India’s Amazing Linguistic Diversity</a></h4>
                         <p>India is a big country and it packs in an astonishing array of languages.
@@ -280,10 +253,9 @@
                     <div class="blog-info">
                         <ul>
                             <li>Treebo</li>
-                            <li>01.02.2018</li>
                         </ul>
                         <h4><a href="https://www.treebo.com/blog/religious-festivals-of-india/" target="_blank">The Spectrum of National festivals of India</a></h4>
-                        <p>Such diverse cultures, culminating such varied festivals and that too under the name of a single country; such is the greatness of Indian culture. </p>
+                        <p>Such diverse cultures, culminating such varied festivals and that too under the name of a single country; such is the greatness of Indian culture. </p><br><br><br>
                     </div>
                 </div>
             </div>
@@ -296,12 +268,13 @@
             <div class="footer-par">
                 <div class="footer-1">
                     <h2>Travel with us</h2>
+                    <img src="images/Logo.png" alt="Travel Image" style="width: 100%; max-width: 300px; height: auto; margin-top: 10px;">
                 </div>
                 <div class="footer-2 fot-info">
                     <h3>Dekho Apna Desh!</h3>
                     <ul>
                         <li><a href="https://indianculture.gov.in/">Indian Culture</a></li>
-                        <li><a href="https://www.incredibleindia.org/content/incredible-india-v2/en.html">Incredible!ndia</a></li>
+                        <li><a href="https://www.incredibleindia.org/content/incredible-india-v2/en.html">Incredible !ndia</a></li>
                         <li><a href="http://www.indiaculture.nic.in/hi">Ministry of Culture</a></li>
                         <li><a href="https://swachhbharatmission.gov.in/SBMCMS/index.htm">Swachh Bharat</a></li>
                     </ul>
@@ -316,14 +289,33 @@
                 </div>
                 <div class="footer-4 fot-info">
                     <h3>Contact Us</h3>
-                    <ul>
-                        <li><a href="https://github.com/mayur28062002">Mayur Nair</a></li>
-                        <li><a href="https://github.com/thexsharma30">Amar Sharma</a></li>
-                        <li><a href="https://github.com/rohan-2702">Rohan Chintalwar</a></li>
-                        <li><a href="https://github.com/Yugjain149">Yug Jain</a></li>
-                        <li><a href="https://github.com/OmkarExe">Omkar Patil</a></li>
-
-                    </ul>
+    <ul>
+        <li>
+            Mayur Nair 
+            <a href="https://github.com/mayur28062002" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mayurnair28/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+            Amar Sharma 
+            <a href="https://github.com/thexsharma30" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/amarsharma30/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+            Rohan Chintalwar 
+            <a href="https://github.com/rohan-2702" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rohan-chintalwar/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+            Yug Jain 
+            <a href="https://github.com/Yugjain149" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yug-jain-2a6341251/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+            Omkar Patil 
+            <a href="https://github.com/OmkarExe" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/omkar0808" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </li>
+    </ul>
                 </div>
             </div>
         </div>

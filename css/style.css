@@ -591,7 +591,7 @@ section#gallery {
   padding-right: 1rem;
 }
 
-/* #fiji-holyday {
+ #fiji-holyday {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/holyday-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -610,8 +610,8 @@ section#fiji-holyday h3 {
     text-transform: capitalize;
 }
 
- */
-/* .owl-img-par {
+ 
+ .owl-img-par {
     position: relative;
     overflow: hidden;
     width: 500px;
@@ -959,5 +959,65 @@ footer {
     }
 
 }
+
+.logo-par {
+    display: flex;
+    align-items: center;
+}
+
+.logo-par a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-image {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.logo-par h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo section styling */
+.logo-par {
+    display: flex;
+    align-items: center;
+}
+
+.logo-par a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-image {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    
+    margin: 0;
+}
+
+.logo-text h3 {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #777; /* Adjust the color as needed */
+    margin: 0;
+    font-weight: normal; /* Adjust the font weight as needed */
+}
+
+
 
 @media screen and (max-width:950px) {}
