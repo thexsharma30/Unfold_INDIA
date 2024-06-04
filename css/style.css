@@ -591,16 +591,16 @@ section#gallery {
   padding-right: 1rem;
 }
 
- #fiji-holyday {
+ /* #fiji-holyday {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/holyday-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 0px;
-}
+} */
 
-section#fiji-holyday h3 {
+/* section#fiji-holyday h3 {
     color: #343a40;
     font-size: 42px;
     font-weight: 600;
@@ -608,7 +608,7 @@ section#fiji-holyday h3 {
     text-align: center;
     color: #fff;
     text-transform: capitalize;
-}
+} */
 
  
  .owl-img-par {
